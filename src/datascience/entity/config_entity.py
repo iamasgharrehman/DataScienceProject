@@ -34,3 +34,28 @@ class ModelTrainerConfig:
     l1_ratio: float
 
 
+@dataclass
+class ModelEvaluationConfig:
+    root_dir: Path
+    test_data_path: Path
+    model_path: Path
+    metric_file_path: Path
+    all_params: dict
+    target_column: str
+    mlflow_uri: str
+
+from pathlib import Path
+from dataclasses import dataclass
+
+@dataclass
+class ModelEvaluationConfig:
+    root_dir: Path
+    test_data_path: Path
+    model_path: Path
+    metric_file_path: Path
+    all_params: dict
+    target_column: str
+    mlflow_uri: str
+    
+
+
