@@ -1,4 +1,4 @@
-from src.datascience.config.configuration import Configurationmanager
+from src.datascience.config.configuration import ConfigurationManager
 from src.datascience.components.data_ingestion import DataIngestion
 from src.datascience import logger
 STAGE_NAME='Data Ingestion Stage'
@@ -8,7 +8,7 @@ class DataIngestionTrainingPipeline:
         pass
 
     def initiate_data_ingestion(self):
-        config=Configurationmanager()
+        config=ConfigurationManager()
         data_ingestion_config=config.get_data_ingestion_config()
         data_ingestion = DataIngestion(config=data_ingestion_config)
         data_ingestion.download_file()

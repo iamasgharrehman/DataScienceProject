@@ -2,7 +2,7 @@ import os
 import urllib.request as request
 from src.datascience import logger
 import zipfile
-from src.datascience.config.configuration import Configurationmanager
+from src.datascience.config.configuration import ConfigurationManager
 from src.datascience.entity.config_entity import DataIngestionConfig
 
 # component-Data Ingestion
