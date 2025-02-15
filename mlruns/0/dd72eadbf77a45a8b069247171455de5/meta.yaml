@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Data%20Science/Udemy%20MLOPs/DataScienceProject/mlruns/0/dd72eadbf77a45a8b069247171455de5/artifacts
+end_time: 1739649984087
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dd72eadbf77a45a8b069247171455de5
+run_name: crawling-wasp-836
+run_uuid: dd72eadbf77a45a8b069247171455de5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739649974224
+status: 4
+tags: []
+user_id: asgha
